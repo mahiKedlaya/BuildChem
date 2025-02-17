@@ -3,22 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'Tilechem Copper',
             description: 'High-performance non-skid adhesive for tiles and stones. Provides excellent bonding strength and is suitable for both indoor and outdoor applications.',
-            image: 'Images/tilchem-copper.JPEG'
+            image: 'Images/tilchem-copper.jpeg'
         },
         {
             name: 'Tilechem Silver',
             description: 'Specially formulated adhesive for vitrified tiles. Ensures strong adhesion and durability, ideal for use in high-traffic areas.',
-            image: 'Images/tilchem-copper.JPEG'
+            image: 'Images/tilchem-copper.jpeg'
         },
         {
             name: 'Tilechem Gold',
             description: 'Ideal adhesive for new construction projects. Offers superior bonding for various types of tiles and stones, ensuring long-lasting performance.',
-            image: 'Images/tilchem-copper.JPEG'
+            image: 'Images/tilchem-copper.jpeg'
         },
         {
             name: 'Tilechem Diamond',
             description: 'Versatile adhesive for various types of tiles and stones. Provides reliable bonding and is easy to apply, making it perfect for DIY projects.',
-            image: 'Images/tilchem-copper.JPEG'
+            image: 'Images/tilchem-copper.jpeg'
         }
     ];
 
