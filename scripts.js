@@ -3,32 +3,32 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'Non-Skid Adhesive (NSA)',
             description: 'High-performance non-skid adhesive for tiles and stones. Provides excellent bonding strength and is suitable for both indoor and outdoor applications.',
-            image: 'ProductImages/Product1.png'
+            image: 'ProductImages/Product1.PNG'
         },
         {
             name: 'Vitrofix Adhesive',
             description: 'Specially formulated adhesive for vitrified tiles. Ensures strong adhesion and durability, ideal for use in high-traffic areas.',
-            image: 'ProductImages/Product1.png'
+            image: 'ProductImages/Product1.PNG'
         },
         {
             name: 'New Construction Adhesive (NCA)',
             description: 'Ideal adhesive for new construction projects. Offers superior bonding for various types of tiles and stones, ensuring long-lasting performance.',
-            image: 'ProductImages/Product1.png'
+            image: 'ProductImages/Product1.PNG'
         },
         {
             name: 'Extrofix Adhesive',
             description: 'Versatile adhesive for various types of tiles and stones. Provides reliable bonding and is easy to apply, making it perfect for DIY projects.',
-            image: 'ProductImages/Product1.png'
+            image: 'ProductImages/Product1.PNG'
         },
         {
             name: 'Extrofix Ultra Adhesive',
             description: 'High-strength adhesive for demanding applications. Designed to withstand extreme conditions and heavy loads, ensuring maximum durability.',
-            image: 'ProductImages/Product1.png'
+            image: 'ProductImages/Product1.PNG'
         },
         {
             name: 'Master Fix Adhesive',
             description: 'Premium adhesive for superior bonding and durability. Ideal for use in both residential and commercial projects, offering excellent performance.',
-            image: 'ProductImages/Product1.png'
+            image: 'ProductImages/Product1.PNG'
         }
     ];
 
