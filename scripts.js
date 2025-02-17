@@ -1,34 +1,24 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
         {
-            name: 'Non-Skid Adhesive (NSA)',
+            name: 'Tilechem Copper',
             description: 'High-performance non-skid adhesive for tiles and stones. Provides excellent bonding strength and is suitable for both indoor and outdoor applications.',
-            image: 'ProductImages/Product1.PNG'
+            image: 'Images/tilchem-copper.JPEG'
         },
         {
-            name: 'Vitrofix Adhesive',
+            name: 'Tilechem Silver',
             description: 'Specially formulated adhesive for vitrified tiles. Ensures strong adhesion and durability, ideal for use in high-traffic areas.',
-            image: 'ProductImages/Product1.PNG'
+            image: 'Images/tilchem-copper.JPEG'
         },
         {
-            name: 'New Construction Adhesive (NCA)',
+            name: 'Tilechem Gold',
             description: 'Ideal adhesive for new construction projects. Offers superior bonding for various types of tiles and stones, ensuring long-lasting performance.',
-            image: 'ProductImages/Product1.PNG'
+            image: 'Images/tilchem-copper.JPEG'
         },
         {
-            name: 'Extrofix Adhesive',
+            name: 'Tilechem Diamond',
             description: 'Versatile adhesive for various types of tiles and stones. Provides reliable bonding and is easy to apply, making it perfect for DIY projects.',
-            image: 'ProductImages/Product1.PNG'
-        },
-        {
-            name: 'Extrofix Ultra Adhesive',
-            description: 'High-strength adhesive for demanding applications. Designed to withstand extreme conditions and heavy loads, ensuring maximum durability.',
-            image: 'ProductImages/Product1.PNG'
-        },
-        {
-            name: 'Master Fix Adhesive',
-            description: 'Premium adhesive for superior bonding and durability. Ideal for use in both residential and commercial projects, offering excellent performance.',
-            image: 'ProductImages/Product1.PNG'
+            image: 'Images/tilchem-copper.JPEG'
         }
     ];
 
@@ -39,8 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
         productElement.className = 'product';
         productElement.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>${product.description}</p>
+            <div>
+                <h3>${product.name}</h3>
+                <p>${product.description}</p>
+            </div>
         `;
         productElement.addEventListener('click', () => {
             document.getElementById('popup-title').textContent = product.name;
@@ -63,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         productElements.forEach(productElement => {
             const productName = productElement.querySelector('h3').textContent.toLowerCase();
             if (productName.includes(query)) {
-                productElement.style.display = 'block';
+                productElement.style.display = 'flex';
             } else {
                 productElement.style.display = 'none';
             }
