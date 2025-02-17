@@ -8,22 +8,22 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'Vitrofix Adhesive',
             description: 'Specially formulated adhesive for vitrified tiles. Ensures strong adhesion and durability, ideal for use in high-traffic areas.',
-            image: '/ProductImages/Product1.png'
+            image: 'ProductImages/Product1.png'
         },
         {
             name: 'New Construction Adhesive (NCA)',
             description: 'Ideal adhesive for new construction projects. Offers superior bonding for various types of tiles and stones, ensuring long-lasting performance.',
-            image: 'ProductImages//Product1.png'
+            image: 'ProductImages/Product1.png'
         },
         {
             name: 'Extrofix Adhesive',
             description: 'Versatile adhesive for various types of tiles and stones. Provides reliable bonding and is easy to apply, making it perfect for DIY projects.',
-            image: 'ProductImages\Product1.png'
+            image: 'ProductImages/Product1.png'
         },
         {
             name: 'Extrofix Ultra Adhesive',
             description: 'High-strength adhesive for demanding applications. Designed to withstand extreme conditions and heavy loads, ensuring maximum durability.',
-            image: 'ProductImages\\Product1.png'
+            image: 'ProductImages/Product1.png'
         },
         {
             name: 'Master Fix Adhesive',
